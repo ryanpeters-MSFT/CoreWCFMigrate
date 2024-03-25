@@ -1,7 +1,9 @@
 ﻿using System;
+using System.ServiceModel;
 
 namespace Server
 {
+    [ServiceBehavior(IncludeExceptionDetailInFaults = true)]
     public class Service : IService
     {
         public string GetData(int value)

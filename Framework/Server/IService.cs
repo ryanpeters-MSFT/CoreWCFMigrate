@@ -1,4 +1,5 @@
 ﻿using System.ServiceModel;
+using System.ServiceModel.Web;
 
 namespace Server
 {
@@ -6,6 +7,7 @@ namespace Server
     public interface IService
     {
         [OperationContract]
+        [WebGet(UriTemplate = "getdata?value={value}")]
         string GetData(int value);
 
         [OperationContract]

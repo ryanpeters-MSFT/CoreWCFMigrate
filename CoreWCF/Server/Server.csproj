@@ -16,5 +16,6 @@
 	<ItemGroup>
 		<PackageReference Include="CoreWCF.Primitives" Version="1.5.2" />
 		<PackageReference Include="CoreWCF.Http" Version="1.5.2" />
+		<PackageReference Include="CoreWCF.WebHttp" Version="1.5.2" />
 	</ItemGroup>
 </Project>
