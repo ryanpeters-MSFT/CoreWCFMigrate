@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\ryanpeters\\Documents\\Git\\CoreWCFMigrate\\Framework\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4ECFAE7F-B686-4E70-8484-DE97A0CBEDA0}|Server\\Server.csproj|c:\\users\\ryanpeters\\documents\\git\\corewcfmigrate\\framework\\server\\service.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4ECFAE7F-B686-4E70-8484-DE97A0CBEDA0}|Server\\Server.csproj|solutionrelative:server\\service.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6995D2D1-8CCC-48DD-B813-2722A66901E0}|Client\\Client.csproj|c:\\users\\ryanpeters\\documents\\git\\corewcfmigrate\\framework\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6995D2D1-8CCC-48DD-B813-2722A66901E0}|Client\\Client.csproj|C:\\Users\\ryanpeters\\Documents\\Git\\CoreWCFMigrate\\Framework\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6995D2D1-8CCC-48DD-B813-2722A66901E0}|Client\\Client.csproj|solutionrelative:client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6995D2D1-8CCC-48DD-B813-2722A66901E0}|Client\\Client.csproj|c:\\users\\ryanpeters\\documents\\git\\corewcfmigrate\\framework\\client\\connected services\\wcfservice\\reference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6995D2D1-8CCC-48DD-B813-2722A66901E0}|Client\\Client.csproj|solutionrelative:client\\connected services\\wcfservice\\reference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4ECFAE7F-B686-4E70-8484-DE97A0CBEDA0}|Server\\Server.csproj|C:\\Users\\ryanpeters\\Documents\\Git\\CoreWCFMigrate\\Framework\\server\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4ECFAE7F-B686-4E70-8484-DE97A0CBEDA0}|Server\\Server.csproj|solutionrelative:server\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ECFAE7F-B686-4E70-8484-DE97A0CBEDA0}|Server\\Server.csproj|c:\\users\\ryanpeters\\documents\\git\\corewcfmigrate\\framework\\server\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4ECFAE7F-B686-4E70-8484-DE97A0CBEDA0}|Server\\Server.csproj|solutionrelative:server\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ECFAE7F-B686-4E70-8484-DE97A0CBEDA0}|Server\\Server.csproj|c:\\users\\ryanpeters\\documents\\git\\corewcfmigrate\\framework\\server\\service.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ECFAE7F-B686-4E70-8484-DE97A0CBEDA0}|Server\\Server.csproj|solutionrelative:server\\service.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995D2D1-8CCC-48DD-B813-2722A66901E0}|Client\\Client.csproj|C:\\Users\\ryanpeters\\Documents\\Git\\CoreWCFMigrate\\Framework\\client\\connected services\\wcfservice\\reference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995D2D1-8CCC-48DD-B813-2722A66901E0}|Client\\Client.csproj|solutionrelative:client\\connected services\\wcfservice\\reference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,51 +47,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\ryanpeters\\Documents\\Git\\CoreWCFMigrate\\Framework\\Server\\Web.config",
+              "RelativeDocumentMoniker": "Server\\Web.config",
+              "ToolTip": "C:\\Users\\ryanpeters\\Documents\\Git\\CoreWCFMigrate\\Framework\\Server\\Web.config",
+              "RelativeToolTip": "Server\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-03-25T18:42:15.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Reference.cs",
               "DocumentMoniker": "C:\\Users\\ryanpeters\\Documents\\Git\\CoreWCFMigrate\\Framework\\Client\\Connected Services\\WcfService\\Reference.cs",
               "RelativeDocumentMoniker": "Client\\Connected Services\\WcfService\\Reference.cs",
               "ToolTip": "C:\\Users\\ryanpeters\\Documents\\Git\\CoreWCFMigrate\\Framework\\Client\\Connected Services\\WcfService\\Reference.cs",
               "RelativeToolTip": "Client\\Connected Services\\WcfService\\Reference.cs",
-              "ViewState": "AQIAAGsAAAAAAAAAAAAawHwAAABMAAAA",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAewHgAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-25T18:05:17.608Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ryanpeters\\Documents\\Git\\CoreWCFMigrate\\Framework\\Client\\Program.cs",
               "RelativeDocumentMoniker": "Client\\Program.cs",
               "ToolTip": "C:\\Users\\ryanpeters\\Documents\\Git\\CoreWCFMigrate\\Framework\\Client\\Program.cs",
               "RelativeToolTip": "Client\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-25T17:35:22.185Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "IService.cs",
               "DocumentMoniker": "C:\\Users\\ryanpeters\\Documents\\Git\\CoreWCFMigrate\\Framework\\Server\\IService.cs",
               "RelativeDocumentMoniker": "Server\\IService.cs",
               "ToolTip": "C:\\Users\\ryanpeters\\Documents\\Git\\CoreWCFMigrate\\Framework\\Server\\IService.cs",
               "RelativeToolTip": "Server\\IService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-25T16:37:47.905Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Service.svc.cs",
               "DocumentMoniker": "C:\\Users\\ryanpeters\\Documents\\Git\\CoreWCFMigrate\\Framework\\Server\\Service.svc.cs",
               "RelativeDocumentMoniker": "Server\\Service.svc.cs",
               "ToolTip": "C:\\Users\\ryanpeters\\Documents\\Git\\CoreWCFMigrate\\Framework\\Server\\Service.svc.cs",
               "RelativeToolTip": "Server\\Service.svc.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-25T16:37:06.581Z",
               "EditorCaption": ""
