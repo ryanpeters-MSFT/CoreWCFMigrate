@@ -1,4 +1,4 @@
-﻿using System.ServiceModel;
+﻿using WcfService;
 
 namespace Client
 {
@@ -6,7 +6,7 @@ namespace Client
     {
         static async Task Main(string[] args)
         {
-            var client = new WcfService.ServiceClient();
+            var client = new ServiceClient();
 
             var response = client.GetDataUsingDataContract(new WcfService.CompositeType
             {
@@ -15,13 +15,15 @@ namespace Client
             });
 
             Console.WriteLine($"Output from RPC: {response.StringValue}");
-
-            var baseUrl = $"{client.Endpoint.Address.Uri.Scheme}://{client.Endpoint.Address.Uri.Authority}/json/getdata?value=4";
-            var jsonResponse = await new HttpClient().GetStringAsync( baseUrl );
-
-            Console.WriteLine($"Output from JSON: {jsonResponse}");
+            Console.WriteLine($"Output from JSON: {await GetJsonResponse(client)}");
 
             Console.ReadLine(); // to keep the window from closing
+        }
+
+        private static async Task<string> GetJsonResponse(ServiceClient client)
+        {
+            var baseUrl = $"{client.Endpoint.Address.Uri.Scheme}://{client.Endpoint.Address.Uri.Authority}/json/getdata?value=4";
+            return await new HttpClient().GetStringAsync(baseUrl);
         }
     }
 }

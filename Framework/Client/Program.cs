@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Client.WcfService;
+using System;
 using System.Net.Http;
 using System.Threading.Tasks;
 
@@ -17,13 +18,17 @@ namespace Client
             });
 
             Console.WriteLine($"Output from RPC: {response.StringValue}");
-
-            var baseUrl = $"{client.Endpoint.Address.Uri.OriginalString}/json/getdata?value=4";
-            var jsonResponse = await new HttpClient().GetStringAsync(baseUrl);
+            string jsonResponse = await GetJsonResponse(client);
 
             Console.WriteLine($"Output from JSON: {jsonResponse}");
 
             Console.ReadLine(); // to keep the window from closing
+        }
+
+        private static async Task<string> GetJsonResponse(ServiceClient client)
+        {
+            var baseUrl = $"{client.Endpoint.Address.Uri.OriginalString}/json/getdata?value=4";
+            return await new HttpClient().GetStringAsync(baseUrl);
         }
     }
 }
