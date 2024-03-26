@@ -9,7 +9,7 @@ namespace Client
     {
         static async Task Main(string[] args)
         {
-            var client = new WcfService.ServiceClient();
+            var client = new ServiceClient();
 
             var response = client.GetDataUsingDataContract(new WcfService.CompositeType
             {
@@ -18,9 +18,7 @@ namespace Client
             });
 
             Console.WriteLine($"Output from RPC: {response.StringValue}");
-            string jsonResponse = await GetJsonResponse(client);
-
-            Console.WriteLine($"Output from JSON: {jsonResponse}");
+            Console.WriteLine($"Output from JSON: {await GetJsonResponse(client)}");
 
             Console.ReadLine(); // to keep the window from closing
         }
