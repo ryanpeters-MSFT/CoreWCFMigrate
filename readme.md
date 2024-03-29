@@ -1,5 +1,7 @@
 # WCF-to-CoreWCF: Side-by-side
 
+With the creation of .NET "core", while WCF service support was (initially) unsupported on the server side, client support has always been there, leveraging various `System.ServiceModel.***` packages that mirror the same type definitions found in .NET Framework. 
+
 ## Endpoint Definition
 
 - **Framework** - IService.cs contract and Service.svc.cs implementation for Service.svc on file system.
