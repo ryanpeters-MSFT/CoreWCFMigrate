@@ -1,10 +1,14 @@
 # WCF-to-CoreWCF: Side-by-side
 
-## Endpoint Definition
+## Binding Configuration
+
+- **Framework** - Typically configured within the `<system.ServiceModel />` section of web.config, along with endpoint behavior and service behavior definition. Configuration can also be made via C# code.
+- **CoreWCF** - Solely configured via C# code in the .NET pipeline via `WebApplicationExtensions.UseServiceModel(...)` and other middleware extensions provided by CoreWCF.
+
+## Endpoint Implementation
 
 - **Framework** - IService.cs contract and Service.svc.cs implementation for Service.svc on file system.
 - **CoreWCF** - Path Service.svc is defined via `IServiceBuilder.AddServiceEndpoint<TService, TContract>` and `IServiceBuilder.AddService<TService>`.
-  
 
 ## Dependency Injection
 
