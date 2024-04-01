@@ -26,3 +26,4 @@ With the creation of .NET "core", while WCF service support was (initially) unsu
 ## Links
 
 - [**Bring WCF apps to the latest .NET with CoreWCF and Upgrade Assistant**](https://devblogs.microsoft.com/dotnet/migration-wcf-to-corewcf-upgrade-assistant/)
+- [**Upgrade a WCF Server-side Project to use CoreWCF on .NET 6**](https://learn.microsoft.com/en-us/dotnet/core/porting/upgrade-assistant-wcf)
