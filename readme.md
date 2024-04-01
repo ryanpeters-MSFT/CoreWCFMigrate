@@ -18,7 +18,9 @@ Keep in mind that while CoreWCF is a great option for modernizing existing WCF a
 ## Binding Configuration
 
 - **Framework** - Typically configured within the `<system.ServiceModel />` section of web.config, along with endpoint behavior and service behavior definition. Configuration can also be made via C# code.
-- **CoreWCF** - Solely configured via C# code in the .NET pipeline via `WebApplicationExtensions.UseServiceModel(...)` and other middleware extensions provided by CoreWCF.
+- **CoreWCF** - Solely configured via C# code in the .NET pipeline via `WebApplicationExtensions.UseServiceModel(...)` and other middleware extensions provided by CoreWCF. 
+
+**NOTE** - If legacy configuration is required in CoreWCF, the [CoreWCF.ConfigurationManager](https://www.nuget.org/packages/CoreWCF.ConfigurationManager) package is available to provide *limited* support for most aspects of config-based setup of services, endpoints, and basic binding configurations.
 
 ## Endpoint Implementation
 
