@@ -22,3 +22,7 @@ With the creation of .NET "core", while WCF service support was (initially) unsu
 
 - **Framework** - *Add Service Reference...* (in VS) or via `svcutil.exe`
 - **CoreWCF** - *Add* and *Service Reference...* (in VS) or via [`dotnet-svcutil`
+
+## Links
+
+- [**Bring WCF apps to the latest .NET with CoreWCF and Upgrade Assistant**](https://devblogs.microsoft.com/dotnet/migration-wcf-to-corewcf-upgrade-assistant/)
