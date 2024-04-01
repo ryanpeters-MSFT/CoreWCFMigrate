@@ -2,6 +2,19 @@
 
 With the creation of .NET "core", while WCF service support was (initially) unsupported on the server side, client support has always been there, leveraging various `System.ServiceModel.***` packages that mirror the same type definitions found in .NET Framework. 
 
+## Comparison
+
+| **Aspect** | **WCF on .NET Framework** | **CoreWCF** |
+|-|-|-|
+| **Platform Support** | Runs on the **.NET Framework** (Windows-only). | Runs on **modern versions of .NET** (including .NET 6+). |
+| **Community-Driven** | Developed by Microsoft, but **not actively maintained**. | A **community-driven .NET Foundation project** with Microsoft providing product support. |
+| **Functionality** | Supports **many common WCF scenarios**, but **not all WCF functionality**. | Provides a compatible implementation of **SOAP, NetTCP, and WSDL**. |
+| **Recommended Use** | **Legacy applications** with heavy WCF dependencies. | Useful for projects with existing WCF dependencies that need to move to **.NET 6+**. |
+| **Service Host** | Hosted using **Windows services**, IIS, or custom hosts. | Uses **ASP.NET Core** as the service host.                                                                     |
+| **Microsoft Support** | Supported by Microsoft. | Although not a Microsoft-owned project, Microsoft provides support for CoreWCF. |
+
+Keep in mind that while CoreWCF is a great option for modernizing existing WCF applications, newer technologies like **gRPC** and **ASP.NET WebAPI** are recommended for new development.
+
 ## Binding Configuration
 
 - **Framework** - Typically configured within the `<system.ServiceModel />` section of web.config, along with endpoint behavior and service behavior definition. Configuration can also be made via C# code.
@@ -16,7 +29,6 @@ With the creation of .NET "core", while WCF service support was (initially) unsu
 
 - **Framework** - Use of custom `ServiceHostFactory` and `ServiceHost` to add `IServiceBehavior` with custom instance provider.
 - **CoreWCF** - Uses native `IServiceCollection` and `IServiceProvider` as part of middleware pipeline.
-  
 
 ## Client Code Generation
 
