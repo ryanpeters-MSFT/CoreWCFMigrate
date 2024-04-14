@@ -35,7 +35,7 @@ Keep in mind that while CoreWCF is a great option for modernizing existing WCF a
 ## Client Code Generation
 
 - **Framework** - *Add Service Reference...* (in VS) or via `svcutil.exe`
-- **CoreWCF** - *Add* and *Service Reference...* (in VS) or via [`dotnet-svcutil`
+- **CoreWCF** - *Add* and *Service Reference...* (in VS) or via `dotnet-svcutil`
 
 ## Links
 
