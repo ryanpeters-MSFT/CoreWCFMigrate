@@ -7,6 +7,9 @@ With the creation of .NET "core", while WCF service support was (initially) unsu
 | **Aspect** | **WCF on .NET Framework** | **CoreWCF** |
 |-|-|-|
 | **Platform Support** | Runs on the **.NET Framework** (Windows-only). | Runs on **modern versions of .NET** (including .NET 6+). |
+| **Protocols**             | Supports SOAP, REST, TCP, Named Pipes, MSMQ, HTTP         | Supports SOAP, REST, TCP, Named Pipes, HTTP                   |
+| **Hosting**               | IIS, Self-hosting, Windows Services                        | Self-hosting, Docker containers, Azure Functions               |
+| **Configuration**         | XML-based configuration                                    | XML-based or code-based configuration                         |
 | **Community-Driven** | Developed by Microsoft, but **not actively maintained**. | A **community-driven .NET Foundation project** with Microsoft providing product support. |
 | **Functionality** | Supports **many common WCF scenarios**, but **not all WCF functionality**. | Provides a compatible implementation of **SOAP, NetTCP, and WSDL**. |
 | **Recommended Use** | **Legacy applications** with heavy WCF dependencies. | Useful for projects with existing WCF dependencies that need to move to **.NET 6+**. |
@@ -41,3 +44,4 @@ Keep in mind that while CoreWCF is a great option for modernizing existing WCF a
 
 - [**Bring WCF apps to the latest .NET with CoreWCF and Upgrade Assistant**](https://devblogs.microsoft.com/dotnet/migration-wcf-to-corewcf-upgrade-assistant/)
 - [**Upgrade a WCF Server-side Project to use CoreWCF on .NET 6**](https://learn.microsoft.com/en-us/dotnet/core/porting/upgrade-assistant-wcf)
+- [**CoreWCF 1.4.0 Preview release**](https://corewcf.github.io/blog/2023/04/17/corewcf-1_4_0_preview)
